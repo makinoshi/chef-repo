@@ -1,6 +1,9 @@
 {
+  "niginx": {
+    "port" : 80
+  },
   "run_list": [
-
+    "nginx"
   ],
   "automatic": {
     "ipaddress": "centos"
