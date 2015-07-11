@@ -4,6 +4,7 @@
   },
   "run_list": [
     "yumupdate", "yum-epel", "yum-remi",
+    "curl-devel",
     "nginx"
   ],
   "automatic": {
