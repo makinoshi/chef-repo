@@ -6,6 +6,18 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+rpmfile = "nginx-release-centos-6-0.el6.ngx.noarch.rpm"
+
+cookbook_file "/tmp/#{rpmfile}" do 
+  mode 00644
+  checksum "4ee9cb15f3ad5c3bea4909bf8863983af4089484f50c1cdb94559016ea9fd244"
+end
+
+package "nginx-release-centos" do 
+  action :install
+  source "/tmp/#{rpmfile}"
+end
+
 package "nginx" do 
   action :install
 end
