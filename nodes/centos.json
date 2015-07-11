@@ -1,8 +1,9 @@
 {
-  "niginx": {
+  "nginx": {
     "port" : 80
   },
   "run_list": [
+    "yumupdate", "yum-epel", "yum-remi",
     "nginx"
   ],
   "automatic": {

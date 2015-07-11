@@ -1,0 +1,12 @@
+DEPENDENCIES
+  yum-cron (~> 0.1.0)
+  yum-epel (~> 0.6.2)
+  yum-remi (~> 0.1.0)
+
+GRAPH
+  yum (3.6.1)
+  yum-cron (0.1.0)
+  yum-epel (0.6.2)
+    yum (~> 3.2)
+  yum-remi (0.1.0)
+    yum (>= 0.0.0)

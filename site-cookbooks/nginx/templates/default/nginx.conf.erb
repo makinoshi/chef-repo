@@ -1,10 +1,10 @@
 user nginx;
-worker_process auto;
+worker_processes 1;
 error_log /var/log/nginx/error.log;
 pid /var/run/nginx.pid;
 
 events {
-  worker_conntctions 1024;
+  worker_connections 1024;
 }
 
 http {
