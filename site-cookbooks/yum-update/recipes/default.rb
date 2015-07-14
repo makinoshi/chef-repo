@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: yumupdate
+# Cookbook Name:: yum-update
 # Recipe:: default
 #
 # Copyright 2015, YOUR_COMPANY_NAME

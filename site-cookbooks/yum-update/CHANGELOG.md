@@ -1,11 +1,11 @@
-yumupdate CHANGELOG
-===================
+yum-update CHANGELOG
+====================
 
-This file is used to list changes made in each version of the yumupdate cookbook.
+This file is used to list changes made in each version of the yum-update cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of yumupdate
+- [your_name] - Initial release of yum-update
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
